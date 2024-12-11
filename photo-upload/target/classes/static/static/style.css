@@ -1,0 +1,47 @@
+/* Общие стили (уже были добавлены) */
+
+body {
+    background-color: #ffe4e1; /* Нежно-розовый фон */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #f8b6c1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d64550; /* Цвет заголовка */
+}
+
+p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Стили для кнопки-ссылки */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #d64550;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff7f7f;
+}
